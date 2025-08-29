@@ -16,10 +16,9 @@ const Exercicio2 = () => {
 
 
   return (
-    <View style = {style.container}>
+    <View style = {styles.container}>
       <Text>{contador}</Text>
       <Button title="Incrementar" onPress={incrementar}>Incrementar</Button>
-      <hr></hr>
       <Button title="Decrementar" onPress={decrementar}>Decrementar</Button>
 
     </View>
