@@ -8,13 +8,13 @@ const LayoutResponsive = () => {
             <Text>Cabeçalho</Text>
         </View>
 
-    <View style={styles.content}>
-        <Text>Conteúdo Principal</Text>
-    </View>
+        <View style={styles.content}>
+            <Text>Conteúdo Principal</Text>
+        </View>
 
-    <View style={styles.footer}>
-        <Text>Rodapé</Text>
-    </View>
+        <View style={styles.footer}>
+            <Text>Rodapé</Text>
+        </View>
     </View>
   )
 }
