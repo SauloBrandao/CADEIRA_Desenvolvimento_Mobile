@@ -4,7 +4,7 @@ import LayoutResponsive from './src/components/LayoutResponsive'
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <LayoutResponsive></LayoutResponsive>
     </View>
   )
